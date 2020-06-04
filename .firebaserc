@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "fireship-tictactoe-702a7": {
+      "hosting": {
+        "tictactoe-fireship": [
+          "fireship-tictactoe-702a7"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "tictactoe-fireship",
+      "public": "dist/tictactoe-fireship",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}
